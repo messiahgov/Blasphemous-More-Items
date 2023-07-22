@@ -23,7 +23,7 @@ namespace MoreItems.ChargeTimeDecrease
 
         protected override void LoadImages(out Sprite picture)
         {
-            picture = null;
+            picture = Main.Items.FileUtil.loadDataImages("charge-time.png", new Vector2Int(30, 30), Vector2Int.zero, 32, 0, true, out Sprite[] images) ? images[0] : null;
         }
     }
 

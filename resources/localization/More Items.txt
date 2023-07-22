@@ -1,0 +1,12 @@
+lang: en
+ctname: 
+ctdesc: 
+ctlore: 
+
+gfname: 
+gfdesc: 
+gflore: 
+
+drname: 
+drdesc: 
+drlore: 
