@@ -1,5 +1,6 @@
 ﻿using ModdingAPI;
 using MoreItems.ChargeTimeDecrease;
+using MoreItems.DamageRemovalOnce;
 using MoreItems.GuiltFragmentBonus;
 
 namespace MoreItems
@@ -10,8 +11,9 @@ namespace MoreItems
 
         protected override void Initialize()
         {
-            RegisterItem(new ChargeTimeBead().AddEffect<ChargeTimeEffect>());
-            RegisterItem(new GuiltFragmentBead().AddEffect<GuiltFragmentEffect>());
+            RegisterItem(new ChargeTimeBead().AddEffect<ChargeTimeEffect>()); // RB501
+            RegisterItem(new GuiltFragmentBead().AddEffect<GuiltFragmentEffect>()); // RB502
+            RegisterItem(new DamageRemovalBead().AddEffect<DamageRemovalEffect>()); // RB503
         }
     }
 }
