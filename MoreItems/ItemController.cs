@@ -15,5 +15,14 @@ namespace MoreItems
             RegisterItem(new GuiltFragmentBead().AddEffect<GuiltFragmentEffect>()); // RB502
             RegisterItem(new DamageRemovalBead().AddEffect<DamageRemovalEffect>()); // RB503
         }
+
+        protected override void LevelLoaded(string oldLevel, string newLevel)
+        {
+            if (newLevel == "MainMenu")
+            {
+                Log("RB503: Regain damage removal (mainmenu)");
+                DamageRemovalEffect.RegainDamageRemoval();
+            }
+        }
     }
 }

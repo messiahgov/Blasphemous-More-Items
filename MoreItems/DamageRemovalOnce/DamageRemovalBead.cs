@@ -40,7 +40,6 @@ namespace MoreItems.DamageRemovalOnce
         public static void RegainDamageRemoval()
         {
             WillRemoveDamage = true;
-            // Call this also when first starting save file
         }
 
         public static void UseDamageRemoval()
