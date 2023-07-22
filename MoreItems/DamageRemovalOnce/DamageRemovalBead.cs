@@ -33,6 +33,8 @@ namespace MoreItems.DamageRemovalOnce
 
         public static bool WillRemoveDamage { get; private set; }
 
+        public static bool HealingFlag { get; set; }
+
         protected override void ApplyEffect() => Active = true;
 
         protected override void RemoveEffect() => Active = false;
