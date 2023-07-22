@@ -7,11 +7,11 @@ namespace MoreItems.GuiltFragmentBonus
     {
         protected override string Id => "RB502";
 
-        protected override string Name => "Miniature Bloody Helmet";
+        protected override string Name => Main.Items.Localize("gfname");
 
-        protected override string Description => "This old worn helmet is caked in dried blood and ashes. It feels bizarrely familiar somehow. Increases the benefits of picking up your guilt fragments.";
+        protected override string Description => Main.Items.Localize("gfdesc");
 
-        protected override string Lore => "Lore";
+        protected override string Lore => Main.Items.Localize("gflore");
 
         protected override bool CarryOnStart => false;
 

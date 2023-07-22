@@ -7,11 +7,11 @@ namespace MoreItems.DamageRemovalOnce
     {
         protected override string Id => "RB503";
 
-        protected override string Name => "Soccoro's Ribbon";
+        protected override string Name => Main.Items.Localize("drname");
 
-        protected override string Description => "Bloody length of soft cord used to bind the holy Lady Soccoro. It gives off a soothing warmth still. Completely negates the first instance of damage taken but will no longer work until resting at a Prie Dieu.";
+        protected override string Description => Main.Items.Localize("drdesc");
 
-        protected override string Lore => "Lore";
+        protected override string Lore => Main.Items.Localize("drlore");
 
         protected override bool CarryOnStart => false;
 

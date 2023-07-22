@@ -1,12 +1,12 @@
 lang: en
-ctname: 
-ctdesc: 
-ctlore: 
+ctname: Charge Time name
+ctdesc: Charge Time description
+ctlore: Charge Time lore
 
-gfname: 
-gfdesc: 
-gflore: 
+gfname: Guilt Fragment name
+gfdesc: Guilt Fragment description
+gflore: Guilt Fragment lore
 
-drname: 
-drdesc: 
-drlore: 
+drname: Damage Removal name
+drdesc: Damage Removal description
+drlore: Damage Removal lore

@@ -7,11 +7,11 @@ namespace MoreItems.ChargeTimeDecrease
     {
         protected override string Id => "RB501";
 
-        protected override string Name => "Shard of an Executioner's Axe";
+        protected override string Name => Main.Items.Localize("ctname");
 
-        protected override string Description => "A small rusted piece of an executioner's axe. Significantly decreases the charge up time of the charged attack.";
+        protected override string Description => Main.Items.Localize("ctdesc");
 
-        protected override string Lore => "Lore";
+        protected override string Lore => Main.Items.Localize("ctlore");
 
         protected override bool CarryOnStart => false;
 
