@@ -1,4 +1,5 @@
 ﻿using ModdingAPI;
+using MoreItems.AmanecidaQuest;
 using MoreItems.ChargeTimeDecrease;
 using MoreItems.DamageRemovalOnce;
 using MoreItems.GuiltFragmentBonus;
@@ -14,6 +15,8 @@ namespace MoreItems
             RegisterItem(new ChargeTimeBead().AddEffect<ChargeTimeEffect>()); // RB501
             RegisterItem(new GuiltFragmentBead().AddEffect<GuiltFragmentEffect>()); // RB502
             RegisterItem(new DamageRemovalBead().AddEffect<DamageRemovalEffect>()); // RB503
+
+            RegisterItem(new AmanecidaCoreHeart().AddEffect<AmanecidaCoreEffect>()); // HE501
         }
 
         protected override void LevelLoaded(string oldLevel, string newLevel)

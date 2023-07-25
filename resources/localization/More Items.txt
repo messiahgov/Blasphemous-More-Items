@@ -10,3 +10,11 @@ gflore: Guilt Fragment lore
 drname: Damage Removal name
 drdesc: Damage Removal description
 drlore: Damage Removal lore
+
+acname: Amanecida Core name
+acdesc: Amanecida Core description
+aclore: Amanecida Core lore
+
+deog01: ...
+deog02: You must stop this evil that you have just released.
+deog03: But please, in order to seal away their power for good, you must place this in the handle of your sword when facing them.  It's the only way.
