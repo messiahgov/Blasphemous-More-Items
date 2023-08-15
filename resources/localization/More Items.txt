@@ -1,7 +1,7 @@
 lang: en
 
-ctname: Charge Time name
-ctdesc: Charge Time description
+ctname: Shard of an Executioner's Axe
+ctdesc: A small rusted piece of an executioner's axe. Significantly decreases the charge up time of the charged attack. 
 ctlore: Charge Time lore
 
 gfname: Guilt Fragment name
