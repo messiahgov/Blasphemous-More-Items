@@ -19,3 +19,25 @@ aclore: Amanecida Core lore
 deog01: ...
 deog02: You must stop this evil that you have just released.
 deog03: But please, in order to seal away their power for good, you must place this in the handle of your sword when facing them.  It's the only way.
+
+lang: de
+
+ctname: Scherbe einer Henkersaxt
+ctdesc: Ein kleines verrostetes Stück einer Henkersaxt. Verringert die Aufladezeit des aufgeladenen Angriffs beträchtlich. 
+ctlore: Aufladezeit-Überlieferung
+
+gfname: Blut und Asche bedeckter Helm
+gfdesc: Dieser alte, abgenutzte Helm ist mit getrocknetem Blut und Asche bedeckt. Er fühlt sich irgendwie seltsam vertraut an. Erhöht den Nutzen des Aufnehmens deiner Schuldfragmente. 
+gflore: Überlieferung des Schuldfragments
+
+drname: Soccoros Band
+drdesc: Ein blutiges Stück weicher Schnur, mit dem die heilige Lady Soccoro gefesselt wurde. Es strahlt immer noch eine beruhigende Wärme aus. Es hebt den ersten erlittenen Schaden vollständig auf, wirkt aber nicht mehr, bis an einem Betpult geruht wird.
+drlore: Überlieferung der Schadensaufhebung
+
+acname: Amanecida Kernname
+acdesc: Beschreibung des Amanecida-Kerns
+aclore: Überlieferung des Amanecida-Kerns
+
+deog01: ...
+deog02: Ihr müsst das Böse aufhalten, das ihr gerade freigesetzt habt.
+deog03: Aber bitte, um ihre Macht für immer zu besiegeln, müsst Ihr dies in den Griff Eures Schwertes stecken, wenn Ihr ihnen gegenübersteht.  Das ist die einzige Möglichkeit.
